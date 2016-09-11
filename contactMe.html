@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Contact Me | AbhayManiyar</title>
+    <title style="">Contact Me | AbhayManiyar</title>
 
     <!-- Bootstrap -->
     <link href="./Semantic-UI-master/css" rel="stylesheet" type="text/css">
@@ -17,6 +17,7 @@
     <!-- <link href="./bootstrap-3.3.6-dist/css/bootstrap.min.css" rel="stylesheet"> -->
       <link rel="stylesheet" href="bootstrap-3.3.6-dist/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="./Semantic-UI-master/dist/semantic.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
     <link rel="stylesheet" href="./Navbar template for Semantic-UI_files/semantic.min.css">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -28,7 +29,7 @@
 (function() { var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true; po.src = '//api.at.getsocial.io/widget/v1/gs_async.js?id=77769e'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s); })();
 </script>
   </head>
-  <body style="background-color:;">
+  <body>
         <!-- <div class="ui secondary  menu ">
           <a class="active item">
             Home
@@ -70,13 +71,14 @@
     </a>
   	</div> -->
     <div class="ui page grid">
+<!--********************************NAVBAR************************************************************************-->
         <div class="computer tablet only row">
-            <div class="ui item six large red menu navbar">
+            <div class="ui item five large red menu navbar">
                 <a class="item" href="./index.html">
                     <i class="circular teal home icon"></i><b> Home</b>
                 </a>
-                <a class="item" href="#">
-                  <i class="circular purple mail icon"></i><b> My works</b>
+                <a class="item" href="./myProjects.html">
+                  <i class="circular purple mail icon"></i><b> My Projects</b>
                 </a>
                 <a class="item" href="./blogEx.html">
                   <i class="circular yellow browser icon"></i><b>My Blogs</b>
@@ -87,23 +89,12 @@
                 <a class="active item" href="./contactMe.html">
                   <i class="circular inverted red chat icon"></i><b>Contact me</b>
                 </a>
-                <a class="ui dropdown item"><b>Dropdown</b>
-                  <i class="dropdown icon"></i>
-                  <div class="menu">
-                    <div class="item">Action</div>
-                    <div class="item">Another action</div>
-                    <div class="item">Something else here</div>
-                    <div class="ui divider"></div>
-                    <div class="item">Seperated link</div>
-                    <div class="item">One more seperated link</div>
-                  </div>
-                </a>
             </div>
         </div>
         <div class="mobile only narrow row">
             <div class="ui large navbar menu">
-                <a href="#" class="brand item">Project Name</a>
-                <div class="right menu open">ab
+                <a href="#" class="brand item"><font size="4"><b>Abhay Maniyar</b></font></a>
+                <div class="right menu open">
                     <a href="#" class="menu item">
                         <i class="reorder icon"></i>
                     </a>
@@ -113,8 +104,8 @@
                 <a class="item" href="./index.html" style="padding-top:13px; padding-bottom:15px;">
                     <i class="circular teal  home icon"></i><b> Home</b>
                 </a>
-                <a class="item" href="#" style="padding-top:13px; padding-bottom:15px;">
-                    <i class="circular purple  mail icon"></i> <b>My works</b>
+                <a class="item" href="./myProjects.html" style="padding-top:13px; padding-bottom:15px;">
+                    <i class="circular purple  mail icon"></i> <b>My Projects</b>
                 </a>
                 <a class="item" href="./blogEx.html" style="padding-top:13px; padding-bottom:15px;">
                     <i class="circular yellow  browser icon"></i><b>My Blogs</b>
@@ -125,86 +116,72 @@
                 <a class="active item" href="./contactMe.html" style="padding-top:13px; padding-bottom:15px;">
                     <i class="circular inverted red chat icon"></i><b>Contact me</b>
                 </a>
-                    <!-- <div class="<b>ui item"></b>
-                    <div class="text">Dropdown</div>
-                    <div class="menu">
-                        <a class="item">Action</a>
-                        <a class="item">Another action</a>
-                        <a class="item">Something else here</a>
-                        <a class="ui aider"></a>
-                        <a class="item">Seperated link</a>
-                        <a class="item">One more seperated link</a>
-                      </div>
-                </div> --> <!--- optional dropdown ---->
             </div>
         </div>
+<!--********************************NAVBAR ENDS********************************************************************-->  
+        
+<!--********************************MAIN BODY **********************************************************-->
         <div style="padding-top:25px; padding-bottom: 20px;">
-            <div class="ui piled very padded text container segment" style="text-align:center">
-                <h2 class="ui header" style="text-align:center"></h2>
-                <p>
-                    <strong>Hello Visitor!</strong><br>
-                    I am Abhay Maniyar. I am a student of Shri Vaishnav Institute of Technology and Science, Indore(M.P.). I am persuing Bachelor of Engineering from Computer Science stream. 
-                </p>
-                <div class="row">
-<!--
-                    <?php include 'contact_form.php';?>
-                    <form class="form-horizontal" role="form" method="post" action="contact_form.php">
-                        <div class="form-group">
-                            <label for="name" class="col-sm-2 control-label">Name</label>
-                            <div class="col-sm-10">
-                                <input type="text" class="form-control" id="name" name="name" placeholder="First & Last Name" value="<?php echo htmlspecialchars($_POST['name']); ?>">
-                    			<?php echo "<p class='text-danger'>$errName</p>";?>
+            <div class="ui piled text container segment" style="text-align:center">
+                <div class="row ui two column middle aligned very relaxed stackable grid" style="padding-top:10px; background-color:;">
+                    
+                    <div class="col-md-6 column" style="padding-top:30px; padding-left:100px;background-color:;">
+                        <div style="margin-left:20px">
+                            <!-- Do not change the code! -->
+                            <h2>To Contact me, fill this up!</h2>
+                        </div>
+                        <a id="foxyform_embed_link_810335" href="http://www.foxyform.com/"></a>
+                        <script type="text/javascript">
+                        (function(d, t){
+                           var g = d.createElement(t),
+                               s = d.getElementsByTagName(t)[0];
+                           g.src = "http://www.foxyform.com/js.php?id=810335&sec_hash=fe0923d4b1c&width=350px";
+                           s.parentNode.insertBefore(g, s);
+                        }(document, "script"));
+                        </script>
+                        <!-- Do not change the code! -->
+                    </div>
+                    <div class="col-md-6 column" style="padding-top:14px; margin-top:30px; background-color:;">
+                            <div style="margin-left:20px;">
+                            <h2>Or hit any of these colorful things!</h2>
+                            <div style="background-color:; padding-top:10px;">
+                                <a href="https://www.facebook.com/abhay.maniyar.5">
+                                    <button class="huge ui circular facebook button">
+                                      <i class="facebook icon"></i>
+                                      Facebook
+                                    </button>
+                                </a><span style="padding:15px;"></span>
+                                <a href="https://twitter.com/abhay_maniyar">
+                                    <button class="huge ui circular twitter button">
+                                      <i class="twitter icon"></i>
+                                      Twitter
+                                    </button>
+                                </a><span style="padding:10px;"></span>
+                                <a href="https://plus.google.com/u/0/105976121592633082313">
+                                    <button class="huge ui circular google plus button">
+                                      <i class="google plus icon"></i>
+                                      Google Plus
+                                    </button>
+                                </a><span style="padding:10px;"></span>
+                                <a href="https://www.linkedin.com/in/abhay-maniyar-41148876">
+                                    <button class="huge ui circular linkedin button">
+                                      <i class="linkedin icon"></i>
+                                      LinkedIn
+                                    </button>
+                                </a>
+                                <a href="https://www.instagram.com/abhaymaniyar/">
+                                    <button class="huge ui circular instagram button">
+                                      <i class="instagram icon"></i>
+                                      Instagram
+                                    </button>
+                                </a>
                             </div>
                         </div>
-                        <div class="form-group">
-                            <label for="email" class="col-sm-2 control-label">Email</label>
-                            <div class="col-sm-10">
-                                <input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="<?php echo htmlspecialchars($_POST['email']); ?>">
-                    			 <?php echo "<p class='text-danger'>$errEmail</p>";?>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label for="message" class="col-sm-2 control-label">Message</label>
-                            <div class="col-sm-10">
-                                <textarea class="form-control" rows="4" name="message"><?php echo htmlspecialchars($_POST['message']);?></textarea>
-                            		<?php echo "<p class='text-danger'>$errMessage</p>";?>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label for="human" class="col-sm-2 control-label">2 + 3 = ?</label>
-                            <div class="col-sm-10">
-                                <input type="text" class="form-control" id="human" name="human" placeholder="Your Answer">
-                    			<?php echo "<p class='text-danger'>$errHuman</p>";?>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <div class="col-sm-10 col-sm-offset-2">
-                                <input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
-                            </div>
-                        </div>
-                        <div class="form-group">
-                        <div class="col-sm-10 col-sm-offset-2">
-                			<?php echo $result; ?>
-                        </div>
-	</div>
-                    </form>
--->     
-                    <div class="col-md-6" style="padding-top:40px;">
-                    <!-- Do not change the code! -->
-                    <a id="foxyform_embed_link_810335" href="http://www.foxyform.com/"></a>
-                    <script type="text/javascript">
-                    (function(d, t){
-                       var g = d.createElement(t),
-                           s = d.getElementsByTagName(t)[0];
-                       g.src = "http://www.foxyform.com/js.php?id=810335&sec_hash=fe0923d4b1c&width=350px";
-                       s.parentNode.insertBefore(g, s);
-                    }(document, "script"));
-                    </script>
-                    <!-- Do not change the code! -->
                     </div>
                 </div>
             </div>
         </div>
+<!--********************************MAIN BODY ENDS**********************************************************-->
   </div>
 
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
