@@ -40,14 +40,30 @@
         background-size: cover !important;
     }
 */
+      
     .masthead.segment {
-      min-height: 650px;
+/*      min-height: 850px;*/
       padding: 0.5em 0em;
       background-image: url('./how.jpg') !important;
-    width: 100%;
-    height: auto;
+        width: 100%;
+        height: auto;
       background-size: cover!important;
+        background-repeat: no-repeat;
     }
+    body {
+    background-image: url(./how.jpg);
+    background-position: center top;
+    background-size: 100% auto;
+    }
+/*
+    html { 
+          background: url(./how.jpg) no-repeat center center fixed; 
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+    }
+*/
     .masthead .logo.item img {
       margin-right: 1em;
     }
@@ -55,7 +71,7 @@
       margin-left: 0.5em;
     }
     .masthead h1.ui.header {
-      margin-top: 2em;
+      margin-top: 4em;
       margin-bottom: 0em;
       font-size: 4em;
       font-weight: normal;
