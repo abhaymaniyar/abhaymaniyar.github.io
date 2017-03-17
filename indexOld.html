@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <!-- Standard Meta -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <!-- Site Properties -->
+  <link rel="shortcut icon" href="./img.png" />
+  <title>Competitive Programming | AbhayManiyar</title>
+  <!-- <link rel="stylesheet" type="text/css" href="home_files/reset.css">
+  <link rel="stylesheet" type="text/css" href="home_files/site.css">
+
+  <link rel="stylesheet" type="text/css" href="home_files/container.css">
+  <link rel="stylesheet" type="text/css" href="home_files/grid.css">
+  <link rel="stylesheet" type="text/css" href="home_files/header.css">
+  <link rel="stylesheet" type="text/css" href="home_files/image.css">
+  <link rel="stylesheet" type="text/css" href="home_files/menu.css">
+
+  <link rel="stylesheet" type="text/css" href="home_files/divider.css">
+  <link rel="stylesheet" type="text/css" href="home_files/dropdown.css">
+  <link rel="stylesheet" type="text/css" href="home_files/segment.css">
+  <link rel="stylesheet" type="text/css" href="home_files/button.css">
+  <link rel="stylesheet" type="text/css" href="home_files/list.css">
+  <link rel="stylesheet" type="text/css" href="home_files/icon.css">
+  <link rel="stylesheet" type="text/css" href="home_files/sidebar.css">
+  <link rel="stylesheet" type="text/css" href="home_files/transition.css"> -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./Semantic-UI-master/dist/semantic.min.css">
+  <style type="text/css">
+
+    .hidden.menu {
+      display: none;
+    }
+    .landing{
+        background-image: url('./how.jpg') !important;
+        background-size: cover !important;
+    }
+    .masthead.segment {
+      min-height: 770px;
+      padding: 0.5em 0em;
+      background-image: url('./how.jpg') !important;
+/*    width: 100%;*/
+    height: 100% auto;
+      background-size: cover!important;
+    }
+    .masthead .logo.item img {
+      margin-right: 1em;
+    }
+    .masthead .ui.menu .ui.button {
+      margin-left: 0.5em;
+    }
+    .masthead h1.ui.header {
+      margin-top: 2.3em;
+      margin-bottom: 0em;
+      font-size: 4em;
+      font-weight: normal;
+    }
+    .masthead h2 {
+      font-size: 1.9em;
+      font-weight: bolder;
+    }
+
+    .ui.vertical.stripe {
+      padding: 8em 0em;
+    }
+    .ui.vertical.stripe h3 {
+      font-size: 2em;
+    }
+    .ui.vertical.stripe .button + h3,
+    .ui.vertical.stripe p + h3 {
+      margin-top: 3em;
+    }
+    .ui.vertical.stripe .floated.image {
+      clear: both;
+    }
+    .ui.vertical.stripe p {
+      font-size: 1.33em;
+    }
+    .ui.vertical.stripe .horizontal.divider {
+      margin: 3em 0em;
+    }
+
+    .quote.stripe.segment {
+      padding: 0em;
+    }
+    .quote.stripe.segment .grid .column {
+      padding-top: 5em;
+      padding-bottom: 5em;
+    }
+
+    .footer.segment {
+      padding: 5em 0em;
+    }
+
+    .secondary.pointing.menu .toc.item {
+      display: none;
+    }
+
+    @media only screen and (max-width: 320px) {
+      .ui.fixed.menu {
+        display: none !important;
+      }
+      .secondary.pointing.menu .item,
+      .secondary.pointing.menu .menu {
+        display: none;
+      }
+      .secondary.pointing.menu .toc.item {
+        display: block;
+      }
+      .masthead.segment {
+        min-height: 350px;
+      }
+      .masthead h1.ui.header {
+        font-size: 1em;
+        margin-top: 1em;
+      }
+      .masthead h2 {
+        margin-top: 0.5em;
+        font-size: 1.5em;
+      }
+    }
+     .responsive-image {
+      height: auto;
+      width: 100%;
+    }
+  </style>
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="./Semantic-UI-master/dist/semantic.min.js"></script>
+</head>
+<body style="font-family: 'Nunito', sans-serif;">
+        <!--<div class="ui page grid">
+        <div class="computer tablet only row">
+            <div class="ui item six large green menu navbar">
+                <a class="item" href="./index.html">
+                    <i class="circular teal home icon"></i><b> Home</b>
+                </a>
+                <a class="item" href="#">
+                  <i class="circular purple mail icon"></i><b> My works</b>
+                </a>
+                <a class="item" href="./blogEx.html">
+                  <i class="circular yellow browser icon"></i><b>My Blogs</b>
+                </a>
+                <a class="active item" href="./aboutMe.html">
+                  <i class="circular inverted green user icon"></i><b> About me</b>
+                </a>
+                <a class="item" href="./contactMe.html">
+                  <i class="circular red chat icon"></i><b>Contact me</b>
+                </a>
+                <a class="ui dropdown item"><b>Dropdown</b>
+                  <i class="dropdown icon"></i>
+                  <div class="menu">
+                    <div class="item">Action</div>
+                    <div class="item">Another action</div>
+                    <div class="item">Something else here</div>
+                    <div class="ui divider"></div>
+                    <div class="item">Seperated link</div>
+                    <div class="item">One more seperated link</div>
+                  </div>
+                </a>
+            </div>
+        </div>
+        <div class="mobile only narrow row">
+            <div class="ui large navbar menu">
+                <a href="#" class="brand item">Project Name</a>
+                <div class="right menu open">
+                    <a href="#" class="menu item">
+                        <i class="reorder icon"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="ui vertical green navbar menu" style="display: none;">
+                <a class="item" href="./index.html" style="padding-top:13px; padding-bottom:15px;">
+                    <i class="circular teal  home icon"></i><b> Home</b>
+                </a>
+                <a class="item" href="#" style="padding-top:13px; padding-bottom:15px;">
+                    <i class="circular purple  mail icon"></i> <b>My works</b>
+                </a>
+                <a class="item" href="./blogEx.html" style="padding-top:13px; padding-bottom:15px;">
+                    <i class="circular yellow  browser icon"></i><b>My Blogs</b>
+                </a>
+                <a class="active item" href="./aboutMe.html" style="padding-top:13px; padding-bottom:15px;">
+                    <i class="circular inverted green user icon"></i> <b>About me</b>
+                </a>
+                <a class="item" href="./contactMe.html" style="padding-top:13px; padding-bottom:15px;">
+                    <i class="circular red chat icon"></i><b>Contact me</b>
+                </a>
+                    <!-- <div class="<b>ui item"></b>
+                    <div class="text">Dropdown</div>
+                    <div class="menu">
+                        <a class="item">Action</a>
+                        <a class="item">Another action</a>
+                        <a class="item">Something else here</a>
+                        <a class="ui aider"></a>
+                        <a class="item">Seperated link</a>
+                        <a class="item">One more seperated link</a>
+                      </div>
+</div></div></div> --> <!--- optional dropdown ---->
+
+<!-- THE PREVIOUS WANT TO KNOW ME PAGE IS BETWEEN ####s  -->
+<!-- ############################################################################################### -->
+<!-- <div class="pusher">
+  <div class="ui inverted vertical masthead center aligned segment">
+  <div class="ui text container">
+      <h1 class="ui inverted header" style="color:white;">
+        <span style="font-family: 'Nunito', sans-serif;">Abhay Maniyar</span>
+      </h1><br>
+      <h2 style="color:;font-family: 'Nunito', sans-serif;">Want to know me?</h2>
+      <!-- <div class="ui huge primary button"><a href="./blogEx.html" style="text-color:red;">Know me</a><i class="right arrow icon"></i></div> --><!-- <button class="ui inverted blue button">Blue</button> -->
+      <!-- <a href="./blogEx.html"> -->                           <!--link-->
+      <!-- <a href="./aboutMe.html">
+        <div class="ui blue animated positive huge button " tabindex="0">
+      <div class="visible content" style="font-family: 'Nunito', sans-serif;">Click here</div>
+        <div class="hidden content">
+          <i class="right arrow icon"></i>
+        </div>
+      </div></a>
+    </div>
+
+  </div>
+</div>--> 
+  <!-- ############################################################################################### -->
+
+  <!-- <div class="ui vertical stripe segment">
+    <div class="ui middle aligned stackable grid container">
+      <div class="row">
+        <div class="eight wide column">
+          <h3 class="ui header">We Help Companies and Companions</h3>
+          <p>We can give your company superpowers to do things that they
+ never thought possible. Let us delight your customers and empower your
+needs...through pure data analytics.</p>
+          <h3 class="ui header">We Make Bananas That Can Dance</h3>
+          <p>Yes that's right, you thought it was the stuff of dreams, but even bananas can be bioengineered.</p>
+        </div>
+        <div class="six wide right floated column">
+          <img src="home_files/white-image.png" class="ui large bordered rounded image">
+        </div>
+      </div>
+      <div class="row">
+        <div class="center aligned column">
+          <a class="ui huge button">Check Them Out</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="ui vertical stripe quote segment">
+    <div class="ui equal width stackable internally celled grid">
+      <div class="center aligned row">
+        <div class="column">
+          <h3>"What a Company"</h3>
+          <p>That is what they all say about us</p>
+        </div>
+        <div class="column">
+          <h3>"I shouldn't have gone with their competitor."</h3>
+          <p>
+            <img src="home_files/nan.jpg" class="ui avatar image"> <b>Nan</b> Chief Fun Officer Acme Toys
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="ui vertical stripe segment">
+    <div class="ui text container">
+      <h3 class="ui header">Breaking The Grid, Grabs Your Attention</h3>
+      <p>Instead of focusing on content creation and hard work, we have
+learned how to master the art of doing nothing by providing massive
+amounts of whitespace and generic content that can seem massive,
+monolithic and worth your attention.</p>
+      <a class="ui large button">Read More</a>
+      <h4 class="ui horizontal header divider">
+        <a href="#">Case Studies</a>
+      </h4>
+      <h3 class="ui header">Did We Tell You About Our Bananas?</h3>
+      <p>Yes I know you probably disregarded the earlier boasts as
+non-sequitur filler content, but its really true. It took years of gene
+splicing and combinatory DNA research, but our bananas can really dance.</p>
+      <a class="ui large button">I'm Still Quite Interested</a>
+    </div>
+  </div>
+
+ -->
+
+
+
+
+
+
+</body></html>
