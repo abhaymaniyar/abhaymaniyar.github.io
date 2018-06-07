@@ -1,0 +1,161 @@
+{
+  "selectedTemplate": 1,
+  "headings": {
+    "awards": ""
+  },
+  "basics": {
+    "name": "Abhay Maniyar",
+    "email": "abhaymaniyar@live.in",
+    "phone": "+919806902834",
+    "location": {
+      "address": "Bangalore, Karnataka"
+    }
+  },
+  "education": [
+    {
+      "location": "Indore, Madhya Pradesh",
+      "area": "Computer Science and Engineering ",
+      "studyType": "Bachelor of Engineering",
+      "startDate": "Aug 2014",
+      "endDate": "Jun 2018",
+      "gpa": "7.09",
+      "institution": "Shri Vaishnav Institute of Technology and Science"
+    },
+    {
+      "institution": "Padmaja Higher Secondary School",
+      "location": "Dewas, Madhya Pradesh",
+      "studyType": "Higher Secondary School",
+      "gpa": "88.2",
+      "endDate": "2014"
+    },
+    {
+      "institution": "Padmaja Higher Secondary School",
+      "location": "Dewas, Madhya Pradesh",
+      "studyType": "High School",
+      "gpa": "89",
+      "endDate": "2012"
+    }
+  ],
+  "work": [
+    {
+      "position": "Senior Intern",
+      "website": "",
+      "startDate": "Nov 2017",
+      "highlights": [
+        "Development of Android frontend and Laravel backend for InnerVoice Android App",
+        "Analysed ANRs and crashes on Crashlytics on daily basis and worked out on keeping the app stable",
+        "Collaborated with team in planning and addition of the InnerVoice Android App"
+      ],
+      "company": "WittyFeed, Vatsana Technologies",
+      "location": "Indore, Madhya Pradesh",
+      "endDate": "Mar 2018"
+    },
+    {
+      "highlights": [
+        "Contributed on one of its open source Android app to fix frontent issues",
+        null
+      ],
+      "company": "DuckDuckGo",
+      "position": "Open Source Contributor"
+    },
+    {
+      "highlights": [
+        "Collaborated with team members all over the world to fix issues related to appearance and user experience of the app."
+      ],
+      "company": "Zulip Android App",
+      "position": "Open Source Contributor"
+    },
+    {
+      "highlights": [
+        "Development of graph feature in CDASH app to display number of orders placed on server.",
+        "Development of LabelPrint app to enable it to print a product label for shop owners to use."
+      ],
+      "company": "HotWax Systems",
+      "location": "Indore, Madhya Pradesh",
+      "position": "Intern",
+      "startDate": "Aug 2016",
+      "endDate": "Jul 2017"
+    }
+  ],
+  "skills": [
+    {
+      "level": "",
+      "keywords": [
+        "Java",
+        "C",
+        "C++",
+        "Python",
+        "PHP"
+      ],
+      "name": "Programming Languages"
+    },
+    {
+      "keywords": [
+        "Android",
+        "Django",
+        "CodeIgniter",
+        "Laravel"
+      ],
+      "name": "Frameworks"
+    }
+  ],
+  "projects": [
+    {
+      "description": "A platform to share quotes, short stories, oneliners with other app users.",
+      "keywords": [
+        "Android",
+        "Laravel",
+        "CodeIgniter",
+        "Android Studio",
+        null
+      ],
+      "name": "InnerVoice",
+      "url": "http://bit.do/ivoice"
+    },
+    {
+      "keywords": [
+        "Android",
+        "PHP",
+        "MySQL",
+        null
+      ],
+      "name": "Blood Donors United",
+      "description": "An Android app to search blood donors and register as one.",
+      "url": "http://bit.do/bdu"
+    },
+    {
+      "keywords": [
+        "Android"
+      ],
+      "name": "HeadsUp",
+      "description": "Indian version of a famous classic card game Heads-Up",
+      "url": "http://bit.do/hsup"
+    },
+    {
+      "keywords": [
+        "Android",
+        "Firebase"
+      ],
+      "name": "BusBus",
+      "description": "An app to notify my college students about their respective buses.",
+      "url": "http://bit.do/bnotifier"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Coding Champ",
+      "awarder": "Tata Consultancy Services",
+      "summary": "Recognized for entering semifinal round of international coding competition 'CodeVita VI'",
+      "date": "Sep 2017"
+    }
+  ],
+  "sections": [
+    "templates",
+    "profile",
+    "education",
+    "work",
+    "skills",
+    "projects",
+    "awards"
+  ]
+}
