@@ -9,7 +9,8 @@
     "phone": "+919806902834",
     "location": {
       "address": "Bangalore, Karnataka"
-    }
+    },
+    "website": "http://abhaymaniyar.me"
   },
   "education": [
     {
@@ -25,14 +26,14 @@
       "institution": "Padmaja Higher Secondary School",
       "location": "Dewas, Madhya Pradesh",
       "studyType": "Higher Secondary School",
-      "gpa": "88.2",
+      "gpa": "88.2%",
       "endDate": "2014"
     },
     {
       "institution": "Padmaja Higher Secondary School",
       "location": "Dewas, Madhya Pradesh",
       "studyType": "High School",
-      "gpa": "89",
+      "gpa": "89%",
       "endDate": "2012"
     }
   ],
@@ -147,6 +148,10 @@
       "awarder": "Tata Consultancy Services",
       "summary": "Recognized for entering semifinal round of international coding competition 'CodeVita VI'",
       "date": "Sep 2017"
+    },
+    {
+      "title": "RedFM Radio Feature",
+      "summary": "Got featured on RedFM, Indore for development of social welfare application Blood Donors United."
     }
   ],
   "sections": [
