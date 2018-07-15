@@ -1,7 +1,8 @@
 {
   "selectedTemplate": 1,
   "headings": {
-    "awards": ""
+    "awards": "",
+    "skills": "Technologies"
   },
   "basics": {
     "name": "Abhay Maniyar",
@@ -10,7 +11,7 @@
     "location": {
       "address": "Bangalore, Karnataka"
     },
-    "website": "http://abhaymaniyar.me"
+    "website": "http://abhaymaniyar.github.io/"
   },
   "education": [
     {
@@ -43,9 +44,9 @@
       "website": "",
       "startDate": "Nov 2017",
       "highlights": [
-        "Development of Android frontend and Laravel backend for InnerVoice Android App",
-        "Analysed ANRs and crashes on Crashlytics on daily basis and worked out on keeping the app stable",
-        "Collaborated with team in planning and addition of the InnerVoice Android App"
+        "Worked on Android frontend and Laravel backend for InnerVoice Android App.",
+        "Made the app more stable, fixed the bugs based on the analysis of ANRs and crashes on Crashlytics.",
+        "Collaborated with team in planning and addition of new features to the InnerVoice project."
       ],
       "company": "WittyFeed, Vatsana Technologies",
       "location": "Indore, Madhya Pradesh",
@@ -53,23 +54,28 @@
     },
     {
       "highlights": [
-        "Contributed on one of its open source Android app to fix frontent issues",
+        "Made certain parts of the UI more clear and user-friendly in their Android app.",
         null
       ],
       "company": "DuckDuckGo",
-      "position": "Open Source Contributor"
+      "position": "Open Source Contributor",
+      "startDate": "Jul 2017",
+      "endDate": "Aug 2017"
     },
     {
       "highlights": [
-        "Collaborated with team members all over the world to fix issues related to appearance and user experience of the app."
+        "Helped the team to detect certain UX issues in the Android version of the app.",
+        "Based on their suggestions and feedbacks, Worked on the fixes collaboratively with the team."
       ],
       "company": "Zulip Android App",
-      "position": "Open Source Contributor"
+      "position": "Open Source Contributor",
+      "startDate": "Mar 2017",
+      "endDate": "May 2017"
     },
     {
       "highlights": [
-        "Development of graph feature in CDASH app to display number of orders placed on server.",
-        "Development of LabelPrint app to enable it to print a product label for shop owners to use."
+        "Implemented a better, visual way to display the statistics of the inventory in CDASH app.",
+        "Made label printing of the products easy for shop owners. Developed the LabelPrint app, enabling the user to print product labels using mobile devices."
       ],
       "company": "HotWax Systems",
       "location": "Indore, Madhya Pradesh",
@@ -98,6 +104,16 @@
         "Laravel"
       ],
       "name": "Frameworks"
+    },
+    {
+      "keywords": [
+        "Git",
+        "Crashalytics",
+        "Fabric.io",
+        "Firebase",
+        "REST API"
+      ],
+      "name": "Others"
     }
   ],
   "projects": [
