@@ -28,14 +28,16 @@
       "location": "Dewas, Madhya Pradesh",
       "studyType": "Higher Secondary School",
       "gpa": "88.2%",
-      "endDate": "2014"
+      "endDate": "2014",
+      "startDate": "2013"
     },
     {
       "institution": "Padmaja Higher Secondary School",
       "location": "Dewas, Madhya Pradesh",
       "studyType": "High School",
       "gpa": "89%",
-      "endDate": "2012"
+      "endDate": "2012",
+      "startDate": "2011"
     }
   ],
   "work": [
@@ -44,7 +46,7 @@
       "website": "",
       "startDate": "Nov 2017",
       "highlights": [
-        "Worked on Android frontend and Laravel backend for InnerVoice Android App.",
+        "Worked on app's frontend and Laravel backend for InnerVoice App.",
         "Made the app more stable, fixed the bugs based on the analysis of ANRs and crashes on Crashlytics.",
         "Collaborated with team in planning and addition of new features to the InnerVoice project."
       ],
@@ -54,23 +56,19 @@
     },
     {
       "highlights": [
-        "Made certain parts of the UI more clear and user-friendly in their Android app.",
-        null
+        null,
+        "Helped the team to detect certain UI/UX issues in the mobile version of the app.",
+        "Based on their suggestions and feedbacks, Worked on the fixes collaboratively with the team."
       ],
-      "company": "DuckDuckGo",
+      "company": "DuckDuckGo and Zulip",
       "position": "Open Source Contributor",
-      "startDate": "Jul 2017",
+      "startDate": "Mar 2017",
       "endDate": "Aug 2017"
     },
     {
       "highlights": [
-        "Helped the team to detect certain UX issues in the Android version of the app.",
-        "Based on their suggestions and feedbacks, Worked on the fixes collaboratively with the team."
-      ],
-      "company": "Zulip Android App",
-      "position": "Open Source Contributor",
-      "startDate": "Mar 2017",
-      "endDate": "May 2017"
+        null
+      ]
     },
     {
       "highlights": [
@@ -92,7 +90,8 @@
         "C",
         "C++",
         "Python",
-        "PHP"
+        "Data Structures",
+        "Algorithms"
       ],
       "name": "Programming Languages"
     },
@@ -108,46 +107,61 @@
     },
     {
       "keywords": [
+        null,
         "Git",
         "Crashalytics",
-        "Fabric.io",
-        "Firebase",
-        "REST API"
+        "Raspberry Pi",
+        "REST API",
+        "Fabric.io"
       ],
       "name": "Others"
     }
   ],
   "projects": [
     {
-      "description": "A platform to share quotes, short stories, oneliners with other app users.",
+      "description": "A platform to share quotes, short stories, oneliners with the world.",
       "keywords": [
-        "Android",
+        null,
         "Laravel",
         "CodeIgniter",
+        "Android",
         "Android Studio",
-        null
+        ""
       ],
       "name": "InnerVoice",
       "url": "http://bit.do/ivoice"
     },
     {
       "keywords": [
-        "Android",
-        "PHP",
-        "MySQL",
+        "Python",
+        "Django",
+        null,
         null
       ],
-      "name": "Blood Donors United",
-      "description": "An Android app to search blood donors and register as one.",
-      "url": "http://bit.do/bdu"
+      "name": "Poll Application",
+      "description": "A web application to host polls where users can vote with an admin panel to control the app. ",
+      "url": "http://bit.do/pollsapp "
     },
     {
       "keywords": [
-        "Android"
+        null,
+        null,
+        "Android",
+        "PHP",
+        "MySQL"
       ],
-      "name": "HeadsUp",
-      "description": "Indian version of a famous classic card game Heads-Up",
-      "url": "http://bit.do/hsup"
+      "description": "An Android app to search blood donors and register as one.",
+      "url": "http://bit.do/bdu",
+      "name": "Blood Donors United"
+    },
+    {
+      "keywords": [
+        "Angular",
+        null
+      ],
+      "url": "http://bit.do/totododo",
+      "name": "Todo App",
+      "description": "This is a web based ToDo application. The user can note, delete, edit and search tasks."
     },
     {
       "keywords": [
