@@ -101,7 +101,8 @@
         "Android",
         "Django",
         "CodeIgniter",
-        "Laravel"
+        "Laravel",
+        "Angular"
       ],
       "name": "Frameworks"
     },
