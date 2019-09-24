@@ -42,6 +42,17 @@
   ],
   "work": [
     {
+      "highlights": [
+        "Integrated UPI system to enable customers to use their Credit Limit more easily using their VPA address.",
+        "Enabled customers to have insurance for the loans they opt for using ZestMoney"
+      ],
+      "company": "ZestMoney",
+      "location": "Bangalore, India",
+      "startDate": "Aug 2018",
+      "endDate": "Now",
+      "position": "SDE-I"
+    },
+    {
       "position": "Senior Intern",
       "website": "",
       "startDate": "Nov 2017",
@@ -97,6 +108,7 @@
     },
     {
       "keywords": [
+        "Spring Boot",
         "Android",
         "Django",
         "CodeIgniter",
@@ -107,7 +119,8 @@
     },
     {
       "keywords": [
-        null,
+        "Microservices",
+        "AWS",
         "Git",
         "Crashalytics",
         "Raspberry Pi",
