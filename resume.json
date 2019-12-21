@@ -1,0 +1,164 @@
+{
+  "selectedTemplate": 1,
+  "headings": {
+    "skills": "Technologies"
+  },
+  "basics": {
+    "email": "abhaymaniyar@live.in",
+    "phone": "8770872320",
+    "website": "https://www.linkedin.com/in/abhaymaniyar/",
+    "location": {
+      "address": "Bangalore, Karnataka"
+    },
+    "name": "ABHAY MANIYAR"
+  },
+  "education": [
+    {
+      "location": "Indore, M.P.",
+      "studyType": "Bachelor of Engineering",
+      "endDate": "",
+      "gpa": "7.5",
+      "institution": "Shri Vaishnav Institute of Technology and Science",
+      "area": "Compute Science"
+    },
+    {
+      "institution": "Padmaja Higher Secondary School",
+      "location": "Dewas, M.P.",
+      "studyType": "Senior Secondary School",
+      "gpa": "88.2%"
+    },
+    {
+      "studyType": "Higher Secondary School",
+      "location": "Dewas, M.P.",
+      "institution": "Padmaja Higher Secondary School",
+      "gpa": "89%"
+    }
+  ],
+  "work": [
+    {
+      "company": "WittyFeed, Vatsana Technologies",
+      "website": "",
+      "endDate": "",
+      "highlights": [
+        "Worked on app's frontend and Laravel backend for InnerVoice App.",
+        "Made the app more stable, fixed the bugs based on the analysis of ANRs and crashes onCrashlytics.",
+        "Collaborated with team in planning and addition of new features to the InnerVoice project"
+      ],
+      "position": "Software Engineer"
+    },
+    {
+      "highlights": [
+        "Helped the team to detect certain UI/UX issues in the mobile version of the app.",
+        "Based on their suggestions and feedbacks, Worked on the fixes collaboratively with the team."
+      ],
+      "company": "DuckDuckGo and Zulip",
+      "position": "Open Source Contributor"
+    },
+    {
+      "highlights": [
+        "Implemented a better, visual way to display the statistics of the inventory in CDASH app.",
+        "Made label printing of the products easy for shop owners. Developed the LabelPrint app,enabling the user to print product labels using mobile devices."
+      ],
+      "company": "HotWax Systems",
+      "position": "Software Engineer"
+    },
+    {
+      "highlights": [
+        ""
+      ]
+    },
+    {
+      "highlights": [
+        "Worked to create analysis tools for SBC servers.",
+        null
+      ],
+      "company": "Sonus Networks",
+      "position": "Software Engineer"
+    },
+    {
+      "highlights": [
+        ""
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "level": "",
+      "keywords": [
+        "Java, C, C++, Python, TypeScript, Data Structures, Algorithms"
+      ],
+      "name": "Programming Languages"
+    },
+    {
+      "keywords": [
+        "Android, Django, CodeIgniter, Laravel, Angular"
+      ],
+      "name": "Frameworks:"
+    },
+    {
+      "keywords": [
+        "Git, Crashalytics, Raspberry Pi, REST API, Fabric.io"
+      ],
+      "name": "Others:"
+    }
+  ],
+  "projects": [
+    {
+      "keywords": [
+        "Laravel, CodeIgniter, Android, Android Studio"
+      ],
+      "name": "InnerVoice",
+      "description": "A platform to share quotes, short stories, oneliners with the world."
+    },
+    {
+      "keywords": [
+        "Python, Django"
+      ],
+      "name": "Poll Application",
+      "description": "A web application to host polls where users can vote with an admin panel to control the app."
+    },
+    {
+      "keywords": [
+        "Android, PHP, MySQL"
+      ],
+      "name": "Blood Donors United",
+      "description": "An Android app to search blood donors and register as one."
+    },
+    {
+      "keywords": [
+        "Angular"
+      ],
+      "name": "Todo App",
+      "description": "This is a web based ToDo application. The user can note, delete, edit and search tasks."
+    },
+    {
+      "keywords": [
+        "Android, Firebase"
+      ],
+      "name": "BusBus",
+      "description": "An app to notify my college students about their respective buses."
+    }
+  ],
+  "awards": [
+    {
+      "title": "Coding Champ",
+      "date": "",
+      "awarder": "Tata Consultancy Services",
+      "summary": "Recognized for entering semifinal round of international coding competition"
+    },
+    {
+      "title": "RedFM Radio Feature",
+      "summary": "Got featured on RedFM, Indore for development of social welfare application Blood Donors United.",
+      "awarder": "RedFM"
+    }
+  ],
+  "sections": [
+    "templates",
+    "profile",
+    "education",
+    "work",
+    "skills",
+    "projects",
+    "awards"
+  ]
+}
