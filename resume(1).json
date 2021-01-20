@@ -43,14 +43,29 @@
   "work": [
     {
       "highlights": [
+        "Worked with the team on a high performance state engine written in Golang. This enabled us to configure different loan journeys with almost no code changes. This is built as a SaaS product and can be shipped once it matures enough.",
         "Integrated UPI system to enable customers to use their Credit Limit more easily using their VPA address.",
-        "Enabled customers to have insurance for the loans they opt for using ZestMoney"
+        "Certain services required a migration from .NET to Spring like the one named as ApplicationFlow which was the service dedicated to handle the loan application level stuff. Worked on that alongside the BAU tasks.",
+        "Enabled customers to have insurance for the loans they opt for using ZestMoney",
+        "Created REST APIs in a microservice working as a middleware for mobile app and building block services. The APIs were written in Loopback4(nodejs).",
+        "Worked on improving the cashback system and enabled features like cashback on EMI repayment and loan preclosure and customer referral cashback.",
+        "Mentored freshers and interns on understanding Zestmoney's system and made sure they become productive asap."
       ],
       "company": "ZestMoney",
       "location": "Bangalore, India",
-      "startDate": "Aug 2018",
+      "startDate": "April, 2019",
       "endDate": "Now",
       "position": "SDE-I"
+    },
+    {
+      "highlights": [
+        "Enabling Telecommunication companies to connect people through our SBCs."
+      ],
+      "company": "Ribbon Communications",
+      "location": "Bangalore, India",
+      "startDate": "Aug 2018",
+      "endDate": "April, 2019",
+      "position": "Software Engineer"
     },
     {
       "position": "Senior Intern",
@@ -68,8 +83,8 @@
     {
       "highlights": [
         null,
-        "Helped the team to detect certain UI/UX issues in the mobile version of the app.",
-        "Based on their suggestions and feedbacks, Worked on the fixes collaboratively with the team."
+        null,
+        null
       ],
       "company": "DuckDuckGo and Zulip",
       "position": "Open Source Contributor",
@@ -83,8 +98,8 @@
     },
     {
       "highlights": [
-        "Implemented a better, visual way to display the statistics of the inventory in CDASH app.",
-        "Made label printing of the products easy for shop owners. Developed the LabelPrint app, enabling the user to print product labels using mobile devices."
+        null,
+        null
       ],
       "company": "HotWax Systems",
       "location": "Indore, Madhya Pradesh",
@@ -98,8 +113,8 @@
       "level": "",
       "keywords": [
         "Java",
-        "C",
-        "C++",
+        "Golang",
+        "C/C++",
         "Python",
         "Data Structures",
         "Algorithms"
@@ -111,7 +126,6 @@
         "Spring Boot",
         "Android",
         "Django",
-        "CodeIgniter",
         "Laravel",
         "Angular"
       ],
@@ -122,10 +136,9 @@
         "Microservices",
         "AWS",
         "Git",
-        "Crashalytics",
-        "Raspberry Pi",
-        "REST API",
-        "Fabric.io"
+        "Sumologic",
+        "Docker",
+        "REST API"
       ],
       "name": "Others"
     }
