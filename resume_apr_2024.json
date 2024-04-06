@@ -43,9 +43,9 @@
   "work": [
     {
       "highlights": [
-        "Tech Stack: Golang, Python, Ruby, Wordpress, Woocommerce",
-        "Leading the effort to stablize the Simpl-Checkout WooCommerce plugin resulting in onboarding 2 times more merchants to use Simpl as their checkout partner.",
-        "Lead the effort to refactor internal service layers to support Magento merchants on our checkout system.",
+        "Tech Stack: Golang, Python, PHP, Ruby, Wordpress, Woocommerce",
+        "Leading the effort to refactor internal service layers to support Magento merchants on our checkout system.",
+        "Led the effort to stablize the Simpl-Checkout WooCommerce plugin resulting in onboarding 2 times more merchants to use Simpl as their checkout partner.",
         "Spearheaded the effort of creating backend for merchant dashboard containing different transaction metrics for each merchant.",
         "Was PoC for backend-for-frontend service which provide high availability and scalability to web and app clients.",
         "Mentored juniors in the teams I worked in, provided them with system and business context to get them up to speed.",
