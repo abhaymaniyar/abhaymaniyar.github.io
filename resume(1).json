@@ -7,15 +7,15 @@
   "basics": {
     "name": "Abhay Maniyar",
     "email": "abhaymaniyar@live.in",
-    "phone": "+919806902834",
+    "phone": "+91-8770872320",
     "location": {
-      "address": "Bangalore, Karnataka"
+      "address": "Bangalore, KA, India"
     },
     "website": "http://abhaymaniyar.github.io/"
   },
   "education": [
     {
-      "location": "Indore, Madhya Pradesh",
+      "location": "Indore, MP, India",
       "area": "Computer Science and Engineering ",
       "studyType": "Bachelor of Engineering",
       "startDate": "Aug 2014",
@@ -25,7 +25,7 @@
     },
     {
       "institution": "Padmaja Higher Secondary School",
-      "location": "Dewas, Madhya Pradesh",
+      "location": "Dewas, MP, India",
       "studyType": "Higher Secondary School",
       "gpa": "88.2%",
       "endDate": "2014",
@@ -33,7 +33,7 @@
     },
     {
       "institution": "Padmaja Higher Secondary School",
-      "location": "Dewas, Madhya Pradesh",
+      "location": "Dewas, MP, India",
       "studyType": "High School",
       "gpa": "89%",
       "endDate": "2012",
@@ -43,26 +43,63 @@
   "work": [
     {
       "highlights": [
-        "Worked with the team on a high performance state engine written in Golang. This enabled us to configure different loan journeys with almost no code changes. This is built as a SaaS product and can be shipped once it matures enough.",
-        "Integrated UPI system to enable customers to use their Credit Limit more easily using their VPA address.",
-        "Certain services required a migration from .NET to Spring like the one named as ApplicationFlow which was the service dedicated to handle the loan application level stuff. Worked on that alongside the BAU tasks.",
-        "Enabled customers to have insurance for the loans they opt for using ZestMoney",
-        "Created REST APIs in a microservice working as a middleware for mobile app and building block services. The APIs were written in Loopback4(nodejs).",
-        "Worked on improving the cashback system and enabled features like cashback on EMI repayment and loan preclosure and customer referral cashback.",
-        "Mentored freshers and interns on understanding Zestmoney's system and made sure they become productive asap."
+        "Leading technical advances in Supply Chain team in creating new features.",
+        "Working on fixing technical debts to make the product more stable."
       ],
-      "company": "ZestMoney",
-      "location": "Bangalore, India",
-      "startDate": "April, 2019",
-      "endDate": "Now",
-      "position": "SDE-I"
+      "company": "Zepto",
+      "position": "SDE-3",
+      "location": "Bangalore, KA",
+      "startDate": "July, 2024",
+      "endDate": "Present"
     },
     {
       "highlights": [
-        "Enabling Telecommunication companies to connect people through our SBCs."
+        "Tech Stack: Golang, Python, PHP, Ruby, Wordpress, Woocommerce",
+        "Leading the effort to refactor internal service layers to support Magento merchants on our checkout system.",
+        "Led the effort to stablize the Simpl-Checkout WooCommerce plugin resulting in onboarding 2 times more merchants to use Simpl as their checkout partner.",
+        "Spearheaded the effort of creating backend for merchant dashboard containing different transaction metrics for each merchant.",
+        "Was PoC for backend-for-frontend service which provide high availability and scalability to web and app clients.",
+        "Mentored juniors in the teams I worked in, provided them with system and business context to get them up to speed.",
+        "Worked on creating customizable user onboarding journeys and experiments.",
+        "Leading the effort to make the current codebase more readable and maintainable.",
+        "Worked closely with analytics team to make sure the data accuracy of events for checkout and payment metrics."
+      ],
+      "company": "Simpl",
+      "position": "Senior Software Engineer",
+      "location": "Bengaluru, KA, India",
+      "startDate": "Sept, 2021",
+      "endDate": "May, 2024"
+    },
+    {
+      "highlights": [
+        "Tech Stack: Java, Golang, MySQL, .NET, NodeJS",
+        "Worked on Bolt project. Using Bolt a customer can utilise the CL through UPI and repay the loan as amontly bill payment like one does for credit cards.",
+        "Integrated UPI system powered by IDFC bank to enable customers to use their Credit Limit more easilyusing their UPI ID.",
+        "Mentored freshers and interns on understanding Zestmoney’s system and made sure they becomecomfortable with the engineering process.",
+        "Worked with the team on a high performance state engine written in Golang. This enabled us toconfigure different loan journeys with almost no code changes. This is built as a SaaS product and canbe configured for different banks for onboarding their customers on a digital lending journey.",
+        "Worked on Video KYC module and it’s end to end delivery for a partner bank. It was challenging tohandle all the drop off scenario in this project.",
+        "Enabled customers to have insurance for the loans they opt for using ZestMoney.",
+        "Created REST APIs in a microservice working as a middleware for mobile app and building blockservices. The APIs were written in Loopback4(nodejs).",
+        "Worked on improving the cashback system and enabled features like cashback on EMI repayment andloan preclosure and customer referral cashback.",
+        "Certain services required a migration from .NET to Spring like the one named as ApplicationFlowwhich was the service dedicated to handle the loan application level stuff. Worked on that alongside theBAU tasks.",
+        "Delivered talks on subjects like Clean Code and effective use of Postman.",
+        "Built a habit of creating flow diagrams and maintain documentation of the modules/stories I worked on.This helped new team members to gain insights on the product as well as helped me to revisit the flowwhenever required.",
+        "Helped in hiring as an active interviewer for tech roles."
+      ],
+      "company": "ZestMoney",
+      "location": "Bengaluru, KA, India",
+      "startDate": "April, 2019",
+      "endDate": "Sept, 2021",
+      "position": "SDE-II"
+    },
+    {
+      "highlights": [
+        "Worked on VoIP servers to add more features and fix bugs.",
+        "Added new automations and scripts in the server softwares to reduce time consumption on daily tasks.",
+        "Learned new things about Linux OS and scripting."
       ],
       "company": "Ribbon Communications",
-      "location": "Bangalore, India",
+      "location": "Bengaluru, KA, India",
       "startDate": "Aug 2018",
       "endDate": "April, 2019",
       "position": "Software Engineer"
@@ -77,7 +114,7 @@
         "Collaborated with team in planning and addition of new features to the InnerVoice project."
       ],
       "company": "WittyFeed, Vatsana Technologies",
-      "location": "Indore, Madhya Pradesh",
+      "location": "Indore, MP, India",
       "endDate": "Mar 2018"
     },
     {
@@ -93,110 +130,58 @@
     },
     {
       "highlights": [
-        null
-      ]
-    },
-    {
-      "highlights": [
         null,
         null
-      ],
-      "company": "HotWax Systems",
-      "location": "Indore, Madhya Pradesh",
-      "position": "Intern",
-      "startDate": "Aug 2016",
-      "endDate": "Jul 2017"
+      ]
     }
   ],
   "skills": [
     {
       "level": "",
       "keywords": [
-        "Java",
         "Golang",
-        "C/C++",
+        "Java",
+        null,
         "Python",
-        "Data Structures",
-        "Algorithms"
+        null,
+        null
       ],
       "name": "Programming Languages"
     },
     {
       "keywords": [
         "Spring Boot",
-        "Android",
+        null,
         "Django",
-        "Laravel",
-        "Angular"
+        null,
+        null
       ],
       "name": "Frameworks"
     },
     {
       "keywords": [
-        "Microservices",
+        "DSA",
         "AWS",
         "Git",
         "Sumologic",
         "Docker",
-        "REST API"
+        "REST API",
+        "NewRelic",
+        "Microservices"
       ],
       "name": "Others"
+    },
+    {
+      "keywords": [
+        ""
+      ]
     }
   ],
   "projects": [
     {
-      "description": "A platform to share quotes, short stories, oneliners with the world.",
       "keywords": [
-        null,
-        "Laravel",
-        "CodeIgniter",
-        "Android",
-        "Android Studio",
         ""
-      ],
-      "name": "InnerVoice",
-      "url": "http://bit.do/ivoice"
-    },
-    {
-      "keywords": [
-        "Python",
-        "Django",
-        null,
-        null
-      ],
-      "name": "Poll Application",
-      "description": "A web application to host polls where users can vote with an admin panel to control the app. ",
-      "url": "http://bit.do/pollsapp "
-    },
-    {
-      "keywords": [
-        null,
-        null,
-        "Android",
-        "PHP",
-        "MySQL"
-      ],
-      "description": "An Android app to search blood donors and register as one.",
-      "url": "http://bit.do/bdu",
-      "name": "Blood Donors United"
-    },
-    {
-      "keywords": [
-        "Angular",
-        null
-      ],
-      "url": "http://bit.do/totododo",
-      "name": "Todo App",
-      "description": "This is a web based ToDo application. The user can note, delete, edit and search tasks."
-    },
-    {
-      "keywords": [
-        "Android",
-        "Firebase"
-      ],
-      "name": "BusBus",
-      "description": "An app to notify my college students about their respective buses.",
-      "url": "http://bit.do/bnotifier"
+      ]
     }
   ],
   "awards": [
@@ -214,10 +199,10 @@
   "sections": [
     "templates",
     "profile",
-    "education",
     "work",
     "skills",
     "projects",
+    "education",
     "awards"
   ]
 }
